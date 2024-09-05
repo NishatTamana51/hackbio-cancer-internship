@@ -1,6 +1,6 @@
 <!--StartFragment-->
 
-**The Cancer Genome Atlas (TCGA): Importance in Biomarker Discovery**
+***The Cancer Genome Atlas (TCGA): Importance in Biomarker Discovery***
 
 The Cancer Genome Atlas (TCGA) is a pioneering cancer genomics program initiated as a collaborative effort between the National Cancer Institute[<sup>1</sup>](https://www.zotero.org/google-docs/?VLyiEP) and the National Human Genome Research Institute[<sup>2</sup>](https://www.zotero.org/google-docs/?Q5tsKR). meticulously characterized over 20,000 primary cancer samples, along with matched normal samples across 33 cancer types, including 10 rare types[<sup>3</sup>](https://www.zotero.org/google-docs/?GWKXka). The extensive data generated encompasses genomic, epigenomic, transcriptomic, and proteomic information.
 
