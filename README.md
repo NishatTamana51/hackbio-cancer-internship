@@ -1,14 +1,15 @@
 ## The Hackbio Internship:: Cancer (2024)
 **Stages of the internship**
 
-Stage 0: Technical Writing
+Stage 0: Building Theoretical Foundations and Essay Writing 
 
-Stage 1: Literature Review
+Stage 1: Literature Review (Summary writing of a relevant paper)
 
-Stage 2: Coding and Visualization
+Stage 2: Programming in Biology & Data Visualization (Visualization, differential gene expression analysis and functional enrichment analysis of Glioma Transcritomics raw count data)
 
-Stage 3: Pipeline Implementation for a basic problem set
+Stage 3: Pipeline Implementation (A mini- project)
 
-Stage 4: Pipeline Implementation II: Reproducing a bioinformatics paper
+Stage 4: Pipeline Implementation II (Reproducing a paper)
 
-Stage 5-7: Final Project	
+Stage 5-7: Final Capstone Project
+
