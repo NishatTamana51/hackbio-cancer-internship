@@ -2,7 +2,7 @@
 
 **Stages of the internship**
 
-**Course- [Data Science with R for Life Scientists: Beginners](https://thehackbio.com/courses/2) - completed
+**Course:** [Data Science with R for Life Scientists: Beginners](https://thehackbio.com/courses/2) - completed
 
 **Stage 0:** Building Theoretical Foundations and Essay Writing - completed
 
