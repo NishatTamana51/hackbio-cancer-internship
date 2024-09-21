@@ -10,9 +10,9 @@
 
 **Stage 2:** Programming in Biology & Data Visualization (Visualization, differential gene expression analysis and functional enrichment analysis of Glioma Transcritomics raw count data) - completed
 
-**Stage 3:** Pipeline Implementation (A mini- project) - running
+**Stage 3:** Project: Identification of Smoking Habit-Associated Biomarkers in Stage I Lung Adenocarcinoma Using Transcriptomic Data and Machine Learning; Supervisor: the HackBio team - completed
 
-**Stage 4:** Pipeline Implementation II (Reproducing a paper)
+**Stage 4:** Pipeline Implementation II (Reproducing a paper) - Running
 
 **Stage 5-7:** Final Capstone Project
 
