@@ -21,40 +21,40 @@ This study aimed to identify IDH status-associated biomarkers in low-grade gliom
 Gene expression profiles from TCGA-LGG were used to compare IDH wild types and IDH mutants. RNAseq data revealed several DEGs. The volcano plot showed a distinct clustering of IDH wild types and IDH mutants. Out of all gene enrichment analyses highlighted, extracellular matrix, transcription, and pattern formations were upregulated while different binding functions and cellular receptor signaling were downregulated. 
 
 <p align="center">
-    <img src="Images/Biomarker/stage4volcano.png" alt="Volcano plot of significant DEGs" width="400"/> 
+    <img src="../Images/Biomarker/stage4volcano.png" alt="Volcano plot of significant DEGs" width="400"/> 
 <br> <em> Fig 1:Volcano plot of significant DEGs </em>
 </p>
 
 <p align="center">
-<img src="Images/Biomarker/PreprocessingOutput.png" alt="Boxplot of correlation" width="400"/> 
-<img src="Images/Biomarker/HeatMap comparing 20 of IDHWT and IDHMutant.png" alt="Heatmap of DEGs by IDH Status" width="400"/>
+<img src="../Images/Biomarker/PreprocessingOutput.png" alt="Boxplot of correlation" width="400"/> 
+<img src="../Images/Biomarker/HeatMap comparing 20 of IDHWT and IDHMutant.png" alt="Heatmap of DEGs by IDH Status" width="400"/>
 <br> <em> Fig 2: Boxplot of correlation </em>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em> Fig 3: Heatmap of DEGs by IDH Status </em>
 </p>
 
 <p align="center">
-<img src="Images/Biomarker/down-path-stage4.jpg" alt="Heatmap of DEGs by Smoking Status"  width="400"/>  
-<img src="Images/Biomarker/upregulated-pathway-stage4.jpg" alt="Heatmap of DEGs by Smoking Status" width="400"/> 
+<img src="../Images/Biomarker/down-path-stage4.jpg" alt="Heatmap of DEGs by Smoking Status"  width="400"/>  
+<img src="../Images/Biomarker/upregulated-pathway-stage4.jpg" alt="Heatmap of DEGs by Smoking Status" width="400"/> 
 <br> <em> Fig 4: downregulated pathways  </em>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em> Fig 5: upregulated pathways  </em>
 </p>
 
 The ML model was evaluated using a confusion matrix, classification report, accuracy, and ROC curve. The model has an overall accuracy of 98%. The precision was 98% for mutants and 100% for WT. The true positive rate for mutants was 100%, while it was 89% for WT as the minority class. The F1-scores were 0.99 and 0.94 for mutants and WT, respectively. The ROC’s AUC was 1, indicating strong classification performance.
 The consensus clustering analysis with K = 4 identified four distinct and stable expression clusters, as indicated by the clear block structures in the consensus matrix. Samples within these clusters exhibited high consensus, suggesting reliable grouping across multiple clustering iterations. 
 <p align="center">
-    <img src="Images/ML/consensus004.png" alt="consensus" width="400"/>
-    <img src="Images/ML/heatmap_output.png" alt="Heatmap" width="400"/>
+    <img src="../Images/ML/consensus004.png" alt="consensus" width="400"/>
+    <img src="../Images/ML/heatmap_output.png" alt="Heatmap" width="400"/>
 <br> <em> Fig 6: Consensus matrix heatmap cluster  </em>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em> Fig 7: Consensus matrix heatmap-Annotations for IDH mutation status </em> 
 </p>
 The distribution of IDH mutation status (Mutant/WT) across the clusters revealed that the majority of Mutant samples were concentrated in three clusters, while WT samples were more evenly distributed but less frequent overall. These findings suggest a potential association between IDH mutation status and expression-based clusters, which could provide valuable insights into the molecular subtypes of the samples analyzed. Further biological interpretation is required to explore the functional significance of these clusters to IDH mutation.
 
 <p align="center">
-    <img src="Images/ML/roc curve.png" alt="ROC curve" width="400"/>
-    <img src="Images/ML/Precision-recall-curve.png" alt="Precision recall curve" width="400"/>
+    <img src="../Images/ML/roc curve.png" alt="ROC curve" width="400"/>
+    <img src="../Images/ML/Precision-recall-curve.png" alt="Precision recall curve" width="400"/>
 <br> <em> Fig 8: ROC curve  </em>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em> Fig 9: Precision recall curve  </em>
 </p>
 
 <p align="center">
-    <img src="Images/ML/Rplot.png" alt="Distribution of IDH Status in Expression Clusters" width="400"/>
-    <img src="Images/ML/consensus022.png" alt="Delta area" width="400"/>
+    <img src="../Images/ML/Rplot.png" alt="Distribution of IDH Status in Expression Clusters" width="400"/>
+    <img src="../Images/ML/consensus022.png" alt="Delta area" width="400"/>
 <br> <em> Fig 10: Expression Clusters  </em>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em> Fig 11: Delta area  </em>
 </p>
 
